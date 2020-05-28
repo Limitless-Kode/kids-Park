@@ -1,0 +1,29 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.container .image{
+  height: 30vh;
+  margin-bottom: 60px;
+}
+
+.container .image img{
+  height: 100%;
+}
+
+.container .buttons button{
+  padding: 15px 30px;
+  font-size: 22px;
+  margin: 0px 10px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  border: 2px solid #0080FF;
+  color: #0080FF;
+  border-radius: 5px;
+}
